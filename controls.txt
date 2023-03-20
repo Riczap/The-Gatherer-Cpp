@@ -1,0 +1,13 @@
+Bot Activated: 9
+Bot Deactivated: 8
+
+Computer Vision On: 7
+Computer Vision Off: 6
+
+Detection On: 5
+Detection Off: 4
+
+Fps On: 3
+Fps Off: 2
+
+Exit: 0
