@@ -4,6 +4,8 @@ This is the first version of The Gatherer ([https://github.com/Riczap/The-Gather
 Remember to include OpenCV to the project, you can follow this tutorial if you need to: [https://www.youtube.com/watch?v=unSce_GPwto](https://www.youtube.com/watch?v=unSce_GPwto). 
 **Important:** Use ***opencv_world460.lib*** for the release version.
 
+Training Data: https://drive.google.com/drive/u/2/folders/17X_f17WpzoxHMURSj5QIZ4lMUWPImf5V
+
 You can also check the *controls.txt* file to check the temporal keybinds to activate or deactivate functions.
 
  - Bot Activated: 9
