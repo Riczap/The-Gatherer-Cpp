@@ -95,7 +95,7 @@ cv::Mat getMat(HWND hWND) {
 std::vector<std::string> load_class_list()
 {
     std::vector<std::string> class_list;
-    std::ifstream ifs("C:/Users/ricza/Desktop/Onnx Please/classes.txt");
+    std::ifstream ifs("classes.txt"); //You need to add the path to your text file containing the name of your classes
     std::string line;
     while (getline(ifs, line))
     {
@@ -108,7 +108,7 @@ std::vector<std::string> load_class_list()
 void load_net(cv::dnn::Net& net, bool is_cuda)
 {
     //C:/Users/ricza/Desktop/Onnx Please/best1.onnx
-    auto result = cv::dnn::readNet("C:/Users/ricza/Documents/YOLO Models/YoloV8/best1.onnx");
+    auto result = cv::dnn::readNet("best1.onnx"); //Add the path to the custom .onnx model on your own pc
     if (is_cuda)
     {
         std::cout << "Attempty to use CUDA\n";
