@@ -6,6 +6,12 @@ Remember to include OpenCV to the project, you can follow this tutorial if you n
 
 Training Data: https://drive.google.com/drive/u/2/folders/17X_f17WpzoxHMURSj5QIZ4lMUWPImf5V
 
+If you want to train and export your own custom onnx model you can follow the steps that are set up in the following Google Colab: https://colab.research.google.com/drive/19kVzBERhRwB1jywcKeJ3dALARNd5-dR7?usp=sharing
+
+After you have succesfully exported your custom trained model as a .onnx file you can create a .txt file containing the names of your classes as seen in the example file. I'ld advice to leave an enter space between each class name.
+
+Now you can modify the path/name of your custom files in the main.cpp file and run your inference!
+
 You can also check the *controls.txt* file to check the temporal keybinds to activate or deactivate functions.
 
  - Bot Activated: 9
