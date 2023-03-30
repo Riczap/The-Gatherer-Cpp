@@ -12,7 +12,7 @@ If you want to train and export your own custom onnx model you can follow the st
 Training Data: https://drive.google.com/drive/u/2/folders/17X_f17WpzoxHMURSj5QIZ4lMUWPImf5V
 
 
-Now you can modify the path/name of your custom files in the main.cpp file and run your inference!
+Now you can *modify the path/name* of your custom files in the main.cpp file and run your inference!
 
 You can also check the *controls.txt* file to check the temporal keybinds to activate or deactivate functions.
 
